@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farahnaz Fazl | UI/UX & Full-Stack Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Times+New+Roman:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎨</text></svg>">
+</head>
+<body>
+    <!-- Floating Background Elements - Increased spacing -->
+    <div class="floating-vector" id="vector-figma">
+        <i class="devicon-figma-plain"></i>
+    </div>
+    <div class="floating-vector" id="vector-figma2">
+        <i class="devicon-figma-plain"></i>
+    </div>
+    <div class="floating-vector" id="vector-python">
+        <i class="devicon-python-plain"></i>
+    </div>
+    <div class="floating-vector" id="vector-node">
+        <i class="devicon-nodejs-plain"></i>
+    </div>
+    <div class="floating-vector" id="vector-html">
+        <i class="devicon-html5-plain"></i>
+    </div>
+    <div class="floating-vector" id="vector-css">
+        <i class="devicon-css3-plain"></i>
+    </div>
+    <div class="floating-vector" id="vector-js">
+        <i class="devicon-javascript-plain"></i>
+    </div>
+    <div class="floating-vector" id="vector-react">
+        <i class="devicon-react-original"></i>
+    </div>
+    <div class="floating-vector" id="vector-java">
+        <i class="devicon-java-plain"></i>
+    </div>
+    
+    <!-- Floating Blobs -->
+    <div class="floating-blob blob-1"></div>
+    <div class="floating-blob blob-2"></div>
+    <div class="floating-blob blob-3"></div>
+    <div class="floating-blob blob-4"></div>
+    <div class="floating-blob blob-5"></div>
+    <div class="floating-blob blob-6"></div>
+    <div class="floating-blob blob-7"></div>
+    <div class="floating-blob blob-8"></div>
+    <div class="floating-blob blob-9"></div>
+    <div class="floating-blob blob-10"></div>
+    <div class="floating-blob blob-11"></div>
+    <div class="floating-blob blob-12"></div>
+    
+    <!-- Navigation Bar -->
+    <nav class="glass-nav">
+        <div class="nav-container">
+            <div class="logo-container">
+                <div class="logo">
+                    <span class="logo-main">FARAHNAZ</span>
+                    <span class="logo-secondary">FAZL</span>
+                </div>
+                <div class="logo-subtitle">UI/UX & Full-Stack Developer</div>
+            </div>
+            
+            <div class="nav-center">
+                <ul class="nav-links">
+                    <li><a href="#home" class="nav-link active">
+                        <i class="fas fa-home"></i>
+                        <span>HOME</span>
+                    </a></li>
+                    <li><a href="#about" class="nav-link">
+                        <i class="fas fa-user"></i>
+                        <span>ABOUT</span>
+                    </a></li>
+                    <li><a href="#skills" class="nav-link">
+                        <i class="fas fa-chart-bar"></i>
+                        <span>SKILLS</span>
+                    </a></li>
+                    <li><a href="#projects" class="nav-link">
+                        <i class="fas fa-briefcase"></i>
+                        <span>PROJECTS</span>
+                    </a></li>
+                    <li><a href="#contact" class="nav-link">
+                        <i class="fas fa-envelope"></i>
+                        <span>CONTACT</span>
+                    </a></li>
+                </ul>
+            </div>
+            
+            <div class="nav-right">
+                <button class="theme-toggle" id="themeToggle">
+                    <i class="fas fa-sun"></i>
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+            
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="section hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        HELLO, I'M <span class="highlight-name">FARAHNAZ</span>
+                    </h1>
+                    <h1 class="hero-title">
+                        A <span class="typing-text"></span>
+                    </h1>
+                    
+                    <p class="hero-subtitle">
+                        A passionate <strong class="color-pink">UI/UX Designer</strong> and 
+                        <strong class="color-blue">Full-Stack Developer</strong> with a background in 
+                        <strong class="color-green">Data Science</strong> and professional 
+                        <strong class="color-yellow">Nature Painting</strong>. I create digital experiences that blend 
+                        artistic vision with technical precision.
+                    </p>
+                    
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            <i class="fas fa-eye"></i>
+                            EXPLORE MY WORK
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <i class="fas fa-handshake"></i>
+                            HIRE ME
+                            <i class="fas fa-paper-plane"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="hero-visual">
+                    <!-- Profile Image Container with 3D Effect -->
+                    <div class="profile-container">
+                        <div class="profile-card">
+                            <div class="profile-front">
+                                <div class="profile-image">
+                                    <div class="image-placeholder">
+                                        <i class="fas fa-user-circle"></i>
+                                        <span>Your Photo Here</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="profile-back">
+                                <div class="back-content">
+                                    <i class="fas fa-crown crown-icon"></i>
+                                    <h3>Afghan Innovation</h3>
+                                    <p>Creative Resilience From Herat</p>
+                                    <div class="back-icons">
+                                        <i class="fas fa-paint-brush"></i>
+                                        <i class="fas fa-code"></i>
+                                        <i class="fas fa-chart-line"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="neon-glow"></div>
+                    </div>
+                    
+                    <!-- Orbiting Icons -->
+                    <div class="orbit-container">
+                        <div class="orbiting-icon orbit-1">
+                            <i class="devicon-figma-plain"></i>
+                        </div>
+                        <div class="orbiting-icon orbit-2">
+                            <i class="devicon-python-plain"></i>
+                        </div>
+                        <div class="orbiting-icon orbit-3">
+                            <i class="devicon-mysql-plain"></i>
+                        </div>
+                        <div class="orbiting-icon orbit-4">
+                            <i class="devicon-nodejs-plain"></i>
+                        </div>
+                        <div class="orbiting-icon orbit-5">
+                            <i class="devicon-html5-plain"></i>
+                        </div>
+                        <div class="orbiting-icon orbit-6">
+                            <i class="fas fa-database"></i>
+                        </div>
+                    </div>
+                    
+                    <!-- Skill Icon Grid - Only specific 6 icons, closer spacing -->
+                    <div class="skill-grid">
+                        <div class="skill-item">
+                            <i class="devicon-figma-plain"></i>
+                        </div>
+                        <div class="skill-item">
+                            <i class="devicon-photoshop-plain"></i>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="skill-item">
+                            <i class="devicon-nodejs-plain"></i>
+                        </div>
+                        <div class="skill-item">
+                            <i class="devicon-postgresql-plain"></i>
+                        </div>
+                        <div class="skill-item">
+                            <i class="devicon-python-plain"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="section about">
+        <div class="container">
+            <h2 class="section-title">PROFESSIONAL PROFILE & ACADEMIC JOURNEY</h2>
+            
+            <div class="about-grid">
+                <div class="about-card glass-round">
+                    <div class="card-header gradient-academic">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Academic Background</h3>
+                    <p>Current Computer Science student at University of the People (UoPeople). Former Law student at Herat University (2020). My pivot to tech showcases exceptional adaptability and dedication to pursuing my true passion.</p>
+                </div>
+                
+                <div class="about-card glass-round">
+                    <div class="card-header gradient-experience">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h3>Professional Experience</h3>
+                    <p><strong>3+ years</strong> in Graphic Design & UI/UX, <strong>1 year</strong> as Computer Instructor, <strong>2 years</strong> as Project Manager (all part-time). Demonstrates exceptional time management and diverse skill application.</p>
+                </div>
+                
+                <div class="about-card glass-round">
+                    <div class="card-header gradient-artistic">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>Artistic Foundation</h3>
+                    <p>Professional nature painter with extensive exhibition experience. This artistic background directly translates to superior digital design skills - mastering color theory, composition, and attention to detail in every project.</p>
+                </div>
+                
+                <div class="about-card glass-round">
+                    <div class="card-header gradient-philosophy">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>Design Philosophy & Soft Skills</h3>
+                    <p>Empathy-driven, user-centric design approach. Core strengths: creative ideator, collaborative team player, highly receptive to constructive feedback. I believe in designing solutions that are both beautiful and functional.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills">
+        <div class="container">
+            <h2 class="section-title">TECHNICAL EXPERTISE & PROFICIENCY LEVELS</h2>
+            
+            <div class="level-legend">
+                <div class="legend-item">
+                    <span class="legend-dot beginner"></span>
+                    <span>Beginner</span>
+                </div>
+                <div class="legend-item">
+                    <span class="legend-dot intermediate"></span>
+                    <span>Intermediate</span>
+                </div>
+                <div class="legend-item">
+                    <span class="legend-dot advanced"></span>
+                    <span>Advanced</span>
+                </div>
+                <div class="legend-item">
+                    <span class="legend-dot expert"></span>
+                    <span>Expert</span>
+                </div>
+            </div>
+            
+            <div class="skills-container">
+                <div class="skill-panel glass-round">
+                    <h3>Design & UI/UX</h3>
+                    <div class="skill-item-detailed">
+                        <div class="skill-info">
+                            <i class="devicon-figma-plain"></i>
+                            <span>UI/UX Design with Figma</span>
+                        </div>
+                        <div class="skill-level">
+                            <div class="level-bar" style="width: 95%"></div>
+                            <span class="level-badge expert">EXPERT</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item-detailed">
+                        <div class="skill-info">
+                            <i class="devicon-illustrator-plain"></i>
+                            <span>Adobe Illustrator</span>
+                        </div>
+                        <div class="skill-level">
+                            <div class="level-bar" style="width: 95%"></div>
+                            <span class="level-badge expert">EXPERT</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item-detailed">
+                        <div class="skill-info">
+                            <i class="devicon-photoshop-plain"></i>
+                            <span>Adobe Photoshop</span>
+                        </div>
+                        <div class="skill-level">
+                            <div class="level-bar" style="width: 95%"></div>
+                            <span class="level-badge expert">EXPERT</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-panel glass-round">
+                    <h3>Development</h3>
+                    <div class="skill-item-detailed">
+                        <div class="skill-info">
+                            <i class="devicon-html5-plain"></i>
+                            <span>Front-End (HTML5, CSS3, JS)</span>
+                        </div>
+                        <div class="skill-level">
+                            <div class="level-bar" style="width: 95%"></div>
+                            <span class="level-badge expert">EXPERT</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item-detailed">
+                        <div class="skill-info">
+                            <i class="devicon-nodejs-plain"></i>
+                            <span>Node.js & Backend Development</span>
+                        </div>
+                        <div class="skill-level">
+                            <div class="level-bar" style="width: 95%"></div>
+                            <span class="level-badge expert">EXPERT</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item-detailed">
+                        <div class="skill-info">
+                            <i class="devicon-python-plain"></i>
+                            <span>Python Programming</span>
+                        </div>
+                        <div class="skill-level">
+                            <div class="level-bar" style="width: 85%"></div>
+                            <span class="level-badge advanced">ADVANCED</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-panel glass-round">
+                    <h3>Data & Databases</h3>
+                    <div class="skill-item-detailed">
+                        <div class="skill-info">
+                            <i class="devicon-mysql-plain"></i>
+                            <span>MySQL & Database Management</span>
+                        </div>
+                        <div class="skill-level">
+                            <div class="level-bar" style="width: 85%"></div>
+                            <span class="level-badge advanced">ADVANCED</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item-detailed">
+                        <div class="skill-info">
+                            <i class="devicon-postgresql-plain"></i>
+                            <span>PostgreSQL</span>
+                        </div>
+                        <div class="skill-level">
+                            <div class="level-bar" style="width: 80%"></div>
+                            <span class="level-badge advanced">ADVANCED</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item-detailed">
+                        <div class="skill-info">
+                            <i class="fab fa-r-project"></i>
+                            <span>R Language for Data Science</span>
+                        </div>
+                        <div class="skill-level">
+                            <div class="level-bar" style="width: 85%"></div>
+                            <span class="level-badge advanced">ADVANCED</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="skills-tag-cloud">
+                <span class="skill-tag glow-blue">Data Analysis</span>
+                <span class="skill-tag glow-pink">Responsive Design</span>
+                <span class="skill-tag glow-yellow">Git</span>
+                <span class="skill-tag glow-green">Project Management</span>
+                <span class="skill-tag glow-cyan">Creative Ideation</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects">
+        <div class="container">
+            <h2 class="section-title">PORTFOLIO SHOWCASE</h2>
+            
+            <div class="projects-grid">
+                <div class="project-card glass-round">
+                    <div class="project-header">
+                        <span class="project-category">UI/UX Design</span>
+                        <span class="project-year">2023</span>
+                    </div>
+                    <div class="project-image gradient-uiux">
+                        <i class="fas fa-mobile-alt"></i>
+                        <div class="project-photo-placeholder">
+                            <span>Project 1 Photo</span>
+                        </div>
+                    </div>
+                    <h3>E-Commerce Mobile App</h3>
+                    <p>A modern shopping app with intuitive navigation, personalized recommendations, and seamless checkout experience.</p>
+                    <div class="project-tags">
+                        <span>Figma</span>
+                        <span>Prototyping</span>
+                        <span>User Research</span>
+                    </div>
+                    <a href="#" class="project-link">
+                        View Case Study
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                
+                <div class="project-card glass-round">
+                    <div class="project-header">
+                        <span class="project-category">Full-Stack Web</span>
+                        <span class="project-year">2023</span>
+                    </div>
+                    <div class="project-image gradient-web">
+                        <i class="fas fa-laptop-code"></i>
+                        <div class="project-photo-placeholder">
+                            <span>Project 2 Photo</span>
+                        </div>
+                    </div>
+                    <h3>Healthcare Dashboard</h3>
+                    <p>Comprehensive healthcare management system with real-time analytics, appointment scheduling, and secure data handling.</p>
+                    <div class="project-tags">
+                        <span>Node.js</span>
+                        <span>PostgreSQL</span>
+                        <span>React</span>
+                    </div>
+                    <a href="#" class="project-link">
+                        View Case Study
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                
+                <div class="project-card glass-round">
+                    <div class="project-header">
+                        <span class="project-category">Graphic Design</span>
+                        <span class="project-year">2022</span>
+                    </div>
+                    <div class="project-image gradient-graphic">
+                        <i class="fas fa-paint-brush"></i>
+                        <div class="project-photo-placeholder">
+                            <span>Project 3 Photo</span>
+                        </div>
+                    </div>
+                    <h3>Brand Identity Package</h3>
+                    <p>Complete visual identity system for a sustainable fashion brand including logo, color palette, and marketing materials.</p>
+                    <div class="project-tags">
+                        <span>Illustrator</span>
+                        <span>InDesign</span>
+                        <span>Branding</span>
+                    </div>
+                    <a href="#" class="project-link">
+                        View Case Study
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="designer-insight glass-round">
+                <div class="insight-content">
+                    <i class="fas fa-magic insight-icon"></i>
+                    <div>
+                        <h3>Designer's Insight</h3>
+                        <p>Every pixel tells a story. I approach each project with research, iteration, and a touch of artistic flair. <strong>Let's create something memorable together!</strong></p>
+                    </div>
+                </div>
+                <div class="insight-tools">
+                    <i class="fas fa-search"></i>
+                    <i class="fas fa-pencil-alt"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fas fa-rocket"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2 class="section-title">LET'S CREATE TOGETHER</h2>
+            
+            <div class="contact-panel glass-round">
+                <div class="contact-grid">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-info">
+                            <h4>Email</h4>
+                            <a href="mailto:farahnaz@example.com">farahnaz@example.com</a>
+                            <p>Primary professional contact</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-telegram"></i>
+                        </div>
+                        <div class="contact-info">
+                            <h4>Telegram</h4>
+                            <a href="https://t.me/farahnazfazl" target="_blank">@farahnazfazl</a>
+                            <p>Quick messaging & updates</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <div class="contact-info">
+                            <h4>WhatsApp</h4>
+                            <a href="https://wa.me/93700000000" target="_blank">+93 70 000 0000</a>
+                            <p>Direct communication</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-info">
+                            <h4>Phone</h4>
+                            <a href="tel:+93700000000">+93 70 000 0000</a>
+                            <p>Voice calls available</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="location-info">
+                    <p><i class="fas fa-map-marker-alt"></i> Base: Herat, Afghanistan • Available: Remote & Global Opportunities</p>
+                </div>
+                
+                <div class="social-links">
+                    <a href="https://github.com/farahnazfazl" target="_blank" class="github-link">
+                        <i class="devicon-github-original"></i>
+                        <span>GitHub Portfolio</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    Crafted with <i class="fas fa-heart"></i> and <i class="fas fa-code"></i> by Farahnaz Fazl
+                </div>
+                <div class="footer-copyright">
+                    &copy; <span id="currentYear"></span> Farahnaz Fazl. All rights reserved.
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                    <a href="mailto:farahnaz@example.com">Email Me</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
